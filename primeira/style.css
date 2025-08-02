@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "open sans", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#f8e464,#f14b85,#ebbffc);
+}
+
+.container{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+    
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #c5c5c5;
+}
+
+.Lembrarsenha{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+
+.Lembrarsenha label input{
+    accent-color: #fff;
+    margin-right: 5px;
+}
+
+.Lembrarsenha a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Lembrarsenha a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius:40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color:transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    color: #fff;
+    transition: 0.5s;
+}
+
+.registrar{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.registrar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 500;
+}
+
+.registrar a :hover{
+    text-decoration: underline;
+
+}
