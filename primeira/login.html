@@ -8,13 +8,13 @@
 </head>
 <body>
     <main class="container"><!--É A PARTE PRINCIPAL DA PAGINA-->
-        <form><!--PARA DIZER AO NAVEGADOR QUE ISSO É UM FORMULARIO-->
+        <form method="post" action="https://0a2a19ceb9d4.ngrok-free.app/api/Login"><!--PARA DIZER AO NAVEGADOR QUE ISSO É UM FORMULARIO-->
             <h1>Space Aroud</h1>
             <div class="input-box">
-                <input placeholder="usuario" type="email">
+                <input placeholder="usuario" type="email" id="email" name = "email">
             </div>
              <div class="input-box">
-                <input placeholder="password" type="password">
+                <input placeholder="password" type="password" id="password" name = "password">
             </div>
 
             <div class="Lembrarsenha">
@@ -34,5 +34,6 @@
     </main>    
 
 </form>
+
 </body>
 </html>
